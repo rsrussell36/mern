@@ -1,1 +1,2 @@
+Add Proxy from frontend local server like http://192.168.68.101 and port from backend like 4000 and restart server again (5h35m)
 Login register -> 7:25

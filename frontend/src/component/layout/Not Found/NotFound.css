@@ -1,0 +1,57 @@
+.error_area {
+  background: #ffe7e6;
+  padding: 100px 0px;
+}
+
+.error_content h1 {
+  font-size: 150px;
+  font-family: "Spectral", serif;
+  color: #181b31;
+  text-transform: uppercase;
+  letter-spacing: -11.25px;
+}
+
+.error_content h2 {
+  font-size: 30px;
+  line-height: 40px;
+  letter-spacing: -0.75px;
+  color: #40464c;
+  font-family: cerebriSans;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+.error_content .agency_learn_btn i {
+  margin-left: 0;
+  margin-right: 15px;
+  font-family: cerebriSans;
+}
+
+.error_content .agency_learn_btn:before {
+  left: 36px;
+}
+
+.error_img {
+  position: relative;
+}
+
+.error_img .one,
+.error_img .two,
+.error_img .three {
+  position: absolute;
+}
+
+.error_img .one {
+  top: 30px;
+  left: 50%;
+}
+
+.error_img .two {
+  left: 113px;
+  top: 59%;
+}
+
+.error_img .three {
+  right: 0;
+  top: 45%;
+}

@@ -16,7 +16,7 @@ const Footer = () => {
         <h1>ECOMMERCE.</h1>
         <p>High Quality is our first priority</p>
 
-        <p>Copyrights 2022 &copy; WpSent</p>
+        <p>Copyrights {(new Date().getFullYear())} &copy; WpSent</p>
       </div>
 
       <div className="rightFooter">

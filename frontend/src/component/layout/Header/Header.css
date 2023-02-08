@@ -1,3 +1,8 @@
+.menuBurger {
+  padding: inherit !important;
+  overflow: inherit !important;
+}
+
 .speedDial {
   position: fixed;
   right: 3vmax;

@@ -1,0 +1,135 @@
+.corporate_video {
+  position: relative;
+  overflow: hidden;
+}
+
+.corporate_video_icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.corporate_video_icon .icon {
+  width: 100px;
+  height: 100px;
+  border: 1px dashed #fff;
+  color: #fff;
+  font-size: 25px;
+  line-height: 100px;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.corporate_video_icon .icon:hover {
+  background: #ff4d33;
+  border-color: #ff4d33;
+}
+
+.corporate_video_icon p {
+  margin-bottom: 0;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 0.16px;
+  color: #fff;
+  font-family: ProximaNovaR;
+  padding-top: 15px;
+}
+
+.work_content {
+  padding-left: 100px;
+}
+
+.work_content h2 {
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -1.2px;
+  margin-bottom: 20px;
+}
+
+.work_content p {
+  color: #636968;
+  font-size: 20px;
+  line-height: 36px;
+  margin-bottom: 60px;
+}
+
+.work_steps_info {
+  margin-left: 0;
+  margin-right: 0;
+  padding-top: 120px;
+}
+
+.work_steps_item {
+  text-align: center;
+  padding: 0px 50px;
+  position: relative;
+  cursor: pointer;
+}
+
+.work_steps_item:before {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-image: linear-gradient(45deg, #5ea99f, #5ea99f 75%, transparent 75%, transparent 100%);
+  background-size: 6px 7px;
+  position: absolute;
+  top: 33px;
+  left: -51%;
+  z-index: -1;
+}
+
+.work_steps_item .number {
+  width: 70px;
+  height: 70px;
+  border: 1px dashed #5ea99f;
+  font-size: 24px;
+  color: #5ea99f;
+  text-align: center;
+  line-height: 68px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: 35px;
+  background: #fff;
+  position: relative;
+  z-index: 1;
+  transition: 0.2s linear;
+}
+
+.work_steps_item h4 {
+  font-size: 24px;
+  color: #2f3534;
+  letter-spacing: -0.24px;
+  font-family: ProximaNovaB;
+  transition: all 0.2s linear;
+}
+
+.work_steps_item h4:hover {
+  color: #ff4d33;
+}
+
+.work_steps_item p {
+  margin-bottom: 0;
+  font-size: 18px;
+  line-height: 30px;
+  color: #636968;
+  letter-spacing: 0.18px;
+  padding-top: 15px;
+}
+
+.work_steps_item:first-child:before {
+  display: none;
+}
+
+.work_steps_item:hover .number,
+.active.work_steps_item .number {
+  background: #ff4d33;
+  border-color: #ff4d33;
+  color: #fff;
+}
+
+
+.active.work_steps_item:before {
+  background-image: linear-gradient(45deg, #ff4d33, #ff4d33 75%, transparent 75%, transparent 100%);
+}
